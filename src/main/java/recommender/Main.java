@@ -8,7 +8,6 @@ package recommender;
 public class Main {
     public static void main(String[] args) {
         MovieRecommender recommender = new MovieRecommender();
-
         // movies.csv and ratings.csv are in the input subfolder of the project
         recommender.loadData("input/movies.csv","input/ratings.csv");
         System.out.println("Loaded movie data...");

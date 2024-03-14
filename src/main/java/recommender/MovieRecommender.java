@@ -3,7 +3,7 @@ package recommender;
 import java.io.*;
 
 /** A class that is responsible for:
- - Reading movie and ratings data from the files
+ - Reading movie and ratings data from the csv files
  - Computing movie recommendations for a given user and printing them to a file.
    Fill in code in methods of this class.
    Do not modify signatures of methods.
